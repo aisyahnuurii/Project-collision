@@ -99,19 +99,19 @@ Method Penting:
 
 Perbedaan Brute Force dan Quadtree
 1. Brute Force Method:
-Algoritma  : Nested loop O(n²)
-Cara kerja : Brute Force akan mengecheck semua pasangan lingkaran
-Kelebihan  : Simple, reliable untuk n kecil
-Kekurangan : Lambat untuk n besar (>100 objects)
+- Algoritma  : Nested loop O(n²)
+- Cara kerja : Brute Force akan mengecheck semua pasangan lingkaran
+- Kelebihan  : Simple, reliable untuk n kecil
+- Kekurangan : Lambat untuk n besar (>100 objects)
 
 2. QuadTree Method:
--Algoritma  : Spatial partitioning O(n log n)
--Cara kerja :
- 1.Build QuadTree dengan semua lingkaran
- 2.Untuk setiap lingkaran, QuadTree hanya akan melakukan query nearby objects
- 3.Check collision hanya dengan nearby objects
--Kelebihan  : Sangat cepat untuk n besar
--Kekurangan : Overhead untuk n kecil
+- Algoritma  : Spatial partitioning O(n log n)
+- Cara kerja :
+ 1. Build QuadTree dengan semua lingkaran
+ 2. Untuk setiap lingkaran, QuadTree hanya akan melakukan query nearby objects
+ 3. Check collision hanya dengan nearby objects
+- Kelebihan  : Sangat cepat untuk n besar
+- Kekurangan : Overhead untuk n kecil
 
 # CARA RUN 
 1. sfml yang digunakan untuk windows
